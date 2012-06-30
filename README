@@ -1,0 +1,13 @@
+RaccoonDB is the Quick and Dirty Prototyping Database for PHP
+
+*It doesn't scale
+*It probably can't handle much load
+*It's only as secure as you want to make it.
+*There are probably bugs and inconsistencies
+*It's great if you want to build a json-based rest api in a few minutes without needing to install and run a database service.
+
+Requires PHP 5.3+
+
+It's not really it's own database. RaccoonDB builds a nosql-like interface on top of sqlite built into php. This allows for a quick way to get up and running with a json document store (think couchDB and mongoDB) without needing a dedicated server running the databasing software.
+
+Recommendations on standardizing some sort of security around the db files that get created would be great.
