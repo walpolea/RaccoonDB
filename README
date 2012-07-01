@@ -13,3 +13,11 @@ It's not really it's own database. RaccoonDB builds a nosql-like interface on to
 Recommendations on standardizing some sort of security around the db files that get created would be great.
 
 Don't even look at the filter function. ugh.
+
+/////////////////////////
+INSTALLATION
+/////////////////////////
+
+1. Put RaccoonDB.php in some folder on your server
+2. Use RaccoonDB.php
+3. You may encounter errors if you don't provide the right permissions to the directory that RaccoonDB is trying to create the database files in.
