@@ -27,7 +27,7 @@ echo $response;
 $filter = array( name=>"A" ); //get all the things with name starting with "A"
 
 $raccoon = new RaccoonDB( $DBNAME, $DIR ); //creates a database if not already defined
-$response = $raccoon->retrieve( $COLLECTION, $filter ); //stores some data
+$response = $raccoon->retrieve( $COLLECTION, $filter ); //retrieves data based on filter
 $raccoon->close();
 
 //output as JSON
